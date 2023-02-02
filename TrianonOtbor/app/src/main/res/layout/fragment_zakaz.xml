@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentTrips">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/zakaz_idgrp"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="13.07.2021" />
+
+            <CheckBox
+                android:id="@+id/local_zakaz_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LOCAL" />
+
+            <Button
+                android:id="@+id/zakaz_button_list"
+                android:layout_width="144dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="К товарам" />
+
+            <Button
+                android:id="@+id/zakaz_button_basket"
+                android:layout_width="144dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="В корзину" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="800dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_zakaz"
+                android:layout_width="800dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                tools:listitem="@layout/fragment_item_trips" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

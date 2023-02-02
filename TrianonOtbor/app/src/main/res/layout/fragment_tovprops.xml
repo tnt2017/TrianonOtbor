@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentTovProps">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/gfh56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <Button
+            android:id="@+id/tovprops_button1"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="Инвент" />
+
+        <Button
+            android:id="@+id/tovprops_button2"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="Карточка" />
+
+
+    <Button
+        android:id="@+id/tovprops_button3"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:text="Считать по ID" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gfh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+        <AutoCompleteTextView
+            android:id="@+id/tovprops_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text=""
+            android:hint="Товар"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lalala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_tov"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/gf111h"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="00dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tovsection111l"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="ID"
+                android:textIsSelectable="true" />
+
+            <EditText
+                android:id="@+id/tovsectionl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Секция"
+                android:textIsSelectable="true" />
+
+            <EditText
+                android:id="@+id/tovsection4545l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Артикул"
+                android:textIsSelectable="true" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/gf34342h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/tovprops_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="" />
+
+
+            <EditText
+                android:id="@+id/tovprops_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="" />
+
+
+            <EditText
+                android:id="@+id/tovprops_nomenkl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gf2454h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="260dp"
+        >
+
+        <EditText
+            android:id="@+id/tovsection3434l2"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Штук в коробке"
+            android:textIsSelectable="true" />
+
+        <EditText
+            android:id="@+id/tovprops_kolupak"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gf2h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="300dp"
+        >
+
+        <EditText
+            android:id="@+id/tovsectionl2"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Штук куб.см."
+            android:textIsSelectable="true" />
+
+        <EditText
+            android:id="@+id/tovprops_razmer"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gf2h3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="340dp"
+        >
+
+        <EditText
+            android:id="@+id/tovsectionl23"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="Штука гр."
+            android:textIsSelectable="true" />
+
+        <EditText
+            android:id="@+id/tovprops_ves"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gf2h34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="380dp"
+        >
+        <EditText
+            android:id="@+id/tovsectionl234"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:focusable="false"
+            android:text="Длина кор" />
+
+        <EditText
+            android:id="@+id/tovBOX_L"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/gf2h345"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="420dp"
+        >
+        <EditText
+            android:id="@+id/tovsectionl2345"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:focusable="false"
+            android:text="Ширина кор" />
+
+        <EditText
+            android:id="@+id/tovBOX_W"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gf2h346"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="470dp"
+        >
+        <EditText
+            android:id="@+id/tovsectionl23645"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:focusable="false"
+            android:text="Высота кор" />
+
+        <EditText
+            android:id="@+id/tovBOX_H"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/gf2h31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="520dp"
+        >
+        <EditText
+            android:id="@+id/tovsectionl2314"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:focusable="false"
+            android:text="Длина шт" />
+
+        <EditText
+            android:id="@+id/tovITEM_L"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/gf2h3445"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="560dp"
+        >
+        <EditText
+            android:id="@+id/tovsectionl62345"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:focusable="false"
+            android:text="Ширина шт" />
+
+        <EditText
+            android:id="@+id/tovITEM_W"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gf2h3464"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="610dp"
+        >
+        <EditText
+            android:id="@+id/tovsectionl234645"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:focusable="false"
+            android:text="Высота шт" />
+
+        <EditText
+            android:id="@+id/tovITEM_H"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/statusMessage_Properties"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="690dp"
+        android:layout_marginRight="20dp"
+        android:text="statusMessage" />
+
+
+</FrameLayout>

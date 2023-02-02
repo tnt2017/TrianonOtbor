@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_informer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Информер" />
+
+        <item
+            android:id="@+id/nav_mayak"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Маячок" />
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Считать штрихкод" />
+
+        <item
+            android:id="@+id/nav_invent"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Инвентаризация"
+            android:visible="false"
+            />
+
+        <item
+            android:id="@+id/nav_tovprops"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Св-ва товара"
+            android:visible="false"
+            />
+
+        <item
+            android:id="@+id/nav_tovcard"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Карт. товара" />
+
+        <item
+            android:id="@+id/zakaz"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Заказ от клиента" />
+
+        <item
+            android:id="@+id/new_doc"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Новый док" />
+
+        <item
+            android:id="@+id/new_ret"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Новый возврат" />
+
+        <item
+            android:id="@+id/nav_prihodi"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Приходы товара" />
+
+        <item
+            android:id="@+id/nav_priemka"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Приемка" />
+
+        <item
+            android:id="@+id/nav_front_complekt"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Фронт работ" />
+
+        <item
+            android:id="@+id/nav_mysheets"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Мои листы" />
+
+        <item
+            android:id="@+id/nav_otbor"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Отб. лист" />
+
+        <item
+            android:id="@+id/nav_rnk"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Накладная по ID" />
+
+        <item
+            android:id="@+id/nav_prihod"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Приход по ID" />
+
+        <item
+            android:id="@+id/nav_strikeouts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Вычерки" />
+
+        <item android:title="Расхождения" android:icon="@drawable/ic_menu_slideshow" android:id="@+id/nav_diff"/>
+
+        <item
+            android:id="@+id/nav_zarplata"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Зарплата" />
+
+        <item
+            android:id="@+id/nav_complekt"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Комплектовка адр" />
+
+        <item
+            android:id="@+id/nav_complekt2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Комплектовка рейса" />
+
+        <item
+            android:id="@+id/nav_trans"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Транспортировка" />
+
+        <item
+            android:id="@+id/nav_trips"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Рейсы" />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ордера" />
+
+        <item
+            android:id="@+id/nav_section"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Секция" />
+
+
+        <item
+            android:id="@+id/find_doc"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Поиск документа" />
+
+
+    </group>
+
+</menu>

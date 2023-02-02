@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentTovsheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/front_label"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Фронт работ"
+            android:textSize="24sp"
+            />
+
+
+        <RadioGroup
+        android:id="@+id/radioGroup_front"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_front_upak"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:checked="true"
+            android:text="Упаковка"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radio_front_complekt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Комплектовка"
+            android:textSize="18sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/front_complekt_dt"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="29.04.2021" />
+
+            <Button
+                android:id="@+id/front_complekt_button_apply"
+                android:layout_width="144dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Применить" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/front_complekt_results"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1111" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_tovsheets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                tools:listitem="@layout/fragment_item_tovsheets" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

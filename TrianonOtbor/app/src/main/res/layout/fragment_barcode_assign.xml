@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMayack">
+
+
+    <EditText
+        android:id="@+id/textView_assign_barcode1111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Штрихкод" />
+
+    <EditText
+        android:id="@+id/textView_assign_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Штрихкод" />
+
+        <EditText
+            android:id="@+id/textView_assign_barcode11121"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Название товара" />
+
+        <AutoCompleteTextView
+            android:id="@+id/AutoComplTovar"
+            android:layout_width="match_parent"
+            android:layout_marginTop="150dp"
+            android:layout_height="150dp"
+            />
+
+        <Button
+            android:id="@+id/button_assign_barcode"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="400dp"
+            android:text="Присвоить штрихкод" />
+
+    <EditText
+        android:id="@+id/textView_assign_idtov1111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+
+        android:text="ID товара" />
+
+    <EditText
+        android:id="@+id/textView_assign_idtov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="ID товара" />
+
+
+
+</FrameLayout>

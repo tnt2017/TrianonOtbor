@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentInvent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/gfhfg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/invent_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Карточка"></Button>
+
+            <Button
+                android:id="@+id/invent_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Св-ва товара"></Button>
+
+
+            <Button
+                android:id="@+id/invent_readtovbyid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="Считать по ID"></Button>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/idtov_layout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/idtov_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/invent_tovBarcode"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Штрих код" />
+
+                <Button
+                    android:id="@+id/button_zavesti_tovar"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:text="Присв.Штрих" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/idtov_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+            <EditText
+                android:id="@+id/invent_tovID"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:text="ID товара" />
+
+
+                <Button
+                    android:id="@+id/button_audit"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+
+                    android:text="Аудит" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/gfh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            >
+
+            <EditText
+                android:id="@+id/tovsectionl"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="0dp"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Секция"
+                android:textIsSelectable="true" />
+
+            <EditText
+                android:id="@+id/invent_tovsection"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="A01-0" />
+
+
+            <Button
+                android:id="@+id/button_hist_section"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+
+                android:text="История" />
+
+
+            <Button
+                android:id="@+id/button_save_section"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+
+                android:text="Сохранить" />
+
+
+        </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/tovnamel"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Название товара"
+        android:inputType="none"
+        android:textIsSelectable="true"
+        android:focusable="false"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/invent_tovname"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:text="invent_tovname" />
+
+        <LinearLayout
+            android:id="@+id/email_login_form22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tovkoll"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Количество"
+                android:textIsSelectable="true" />
+
+
+            <EditText
+                android:id="@+id/invent_tovkol"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <Button
+        android:id="@+id/button_saveinv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:text="Внести инвент" />
+
+
+        <LinearLayout
+            android:id="@+id/email_login_form2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/invent_tovdtill"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:text="01.01.2022"
+                />
+
+
+            <EditText
+                android:id="@+id/tovnmth"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_srok"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Внести срок годности" />
+
+        <TextView
+            android:id="@+id/statusMessagel"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Статус" />
+
+        <TextView
+            android:id="@+id/statusMessage"
+            android:layout_width="379dp"
+            android:layout_height="205dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="statusMessage" />
+
+        </LinearLayout>
+
+
+ </FrameLayout>

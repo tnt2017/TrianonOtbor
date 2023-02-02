@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtxtx1txtx11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите название контрагента:"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/newret_org"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Контрагент" />
+
+        <EditText
+            android:id="@+id/newret_idorg"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="ID контрагента" />
+
+        <EditText
+            android:id="@+id/newret_idadr"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="ID адреса" />
+
+
+        <Spinner
+            android:id="@+id/newret_spinner_adr"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"></Spinner>
+
+
+        <TextView
+            android:id="@+id/txtxtx1txtx112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Введите название товара:"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/newret_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Список проданных товаров"></Button>
+
+        <Button
+            android:id="@+id/newret_saveret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="Создать документ"></Button>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/newret_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                tools:listitem="@layout/fragment_item_document" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/newret_tovar_barcodes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+    </LinearLayout>
+</RelativeLayout>

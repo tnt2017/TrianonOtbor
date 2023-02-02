@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentInvent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/gfhfg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="0dp"
+        >
+
+        <EditText
+            android:id="@+id/takeover_idadr1134112"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Название контрагента:" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/takeover_orgname"
+            android:layout_width="533dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="" />
+
+
+
+        <LinearLayout
+            android:id="@+id/gfhfg333"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            >
+
+            <EditText
+                android:id="@+id/takeover_idorg111"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="IDORG" />
+
+            <EditText
+                android:id="@+id/takeover_idorg"
+                android:layout_width="183dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="0" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/gfhfg333idad32r"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            >
+
+            <EditText
+                android:id="@+id/takeover_idadr111"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="IDADR" />
+
+            <Spinner
+                android:id="@+id/spinner_adr"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"></Spinner>
+
+            <EditText
+                android:id="@+id/takeover_idadr"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="IDADR" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/gfhfg333idadr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp"
+            >
+
+            <EditText
+                android:id="@+id/takeover_idadr11112"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:text="IDDOC" />
+
+            <Spinner
+                android:id="@+id/spinner_doc"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"></Spinner>
+
+            <EditText
+                android:id="@+id/takeover_iddoc"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="IDDOC" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/gfhfg4445"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/takeover_exped11"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Экспедитор" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/takeover_exped"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="Фамилия" />
+
+            <EditText
+                android:id="@+id/takeover_idexp"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:text="IDEXP" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/gfhfg444343"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/takeover_palets1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Палетов" />
+
+
+            <EditText
+                android:id="@+id/takeover_palets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/gfhfg445654"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/takeover_pplaces1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Мест" />
+
+
+            <EditText
+                android:id="@+id/takeover_packages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/gfhfg444"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/takeover_prim1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Примечание" />
+
+
+            <EditText
+                android:id="@+id/takeover_prim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/gfhfg444544"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+
+        <Button
+            android:id="@+id/takeover_savebtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:text="Создать документ" />
+    </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/takeover_tovlist"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="Список товаров:"
+            android:gravity="top"
+            />
+
+
+
+    </LinearLayout>
+
+ </FrameLayout>
