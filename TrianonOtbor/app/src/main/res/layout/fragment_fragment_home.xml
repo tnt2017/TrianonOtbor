@@ -17,7 +17,7 @@
             android:id="@+id/txtxtx1txtx"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Трианон - Версия 6.8 (05.08.2022)"
+            android:text="Трианон - Версия 6.9 (02.02.2023)"
             android:textAlignment="center"
             android:textSize="20dp"
             android:textStyle="bold" />

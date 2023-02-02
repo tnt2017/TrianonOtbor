@@ -379,6 +379,8 @@ public class FragmentHome extends Fragment implements FragmentTovsheet.OnFragmen
                             Toast.makeText(getActivity().getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
                         }
                     });
+            FirebaseMessaging.getInstance().subscribeToTopic("TopicName");
+
         }
 
 
